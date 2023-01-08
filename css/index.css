@@ -1,0 +1,188 @@
+@import url(../css/animation.css);
+
+
+/* banner  useing parallax */
+
+.banner {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../images/banner.webp");
+}
+
+.banner-slide{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    animation: fade-in-2 2s;
+}
+.b-a-out{
+    animation: out 0.5s;
+}
+
+.banner-text {
+    width: fit-content;
+    position: relative;
+    top: 45vh;
+    left: 50vw;
+    transform: translate(-50%, -70%);
+    animation: fade-up 2s linear;
+}
+
+
+.banner-brand-name {
+    color: #a67c57;
+    font-size: 5rem;
+}
+
+.banner-text-3 {
+    font-size: 3rem;
+}
+
+
+
+
+.sec-3{
+    width: 80vw;
+    margin: 2rem auto !important;
+}
+
+.sec-4{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.sec-4>div{
+    background-color: rgb(254, 247, 239);
+}
+.sec-4 i{
+    font-size: 7rem;
+    color: #34495E;
+}
+
+.box-12{
+    padding: 1rem;
+}
+
+
+
+
+.sec-sample-2{
+    margin:5rem 0 0 0;
+    padding: 1rem 0;
+    background-image:url("../images/img-113.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sec-sample-2>div{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.sec-sample-2 a{
+    width: 50%;
+    padding: 0.7rem;
+}
+.itr-sam-img{
+    transition: 0.3s;
+    box-shadow: 0 0 10px black;
+}
+.itr-sam-img:hover{
+    transform: scale(1.1) !important;
+}
+.sec-sample-2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.dddhome{
+    width: 100%;
+    border-radius: 1rem;
+    filter: drop-shadow(0 0 10px gray);
+}
+
+
+
+
+
+
+
+.sec-sample{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.sec-sample>div{
+    flex-direction: column;
+}
+
+.sample-text-box {
+    text-align: center;
+    width:80vw;
+    padding: 1rem;
+}
+
+
+
+
+.swiper {
+    width: 90vw;
+    height: 60vw;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.swiper-button-next,.swiper-button-prev{
+    display: none;
+    color:white;
+    font-weight: 700;
+    text-shadow: 0 0 20px white;
+    padding: 2rem 1rem;
+    background-color: rgb(173, 173, 173);
+    border-radius: 0.7rem;
+    transition: 0.1s;
+}
+.swiper-button-next:hover,.swiper-button-prev:hover{
+    transform: scale(1.1);
+}
+
+.sample-img {
+    width: 100%;
+}
+
+.sample-link{
+    border-radius: 1rem;
+    display:block;
+    padding: 1rem;
+    width: fit-content !important;
+    font-size: 1rem;
+    color: white;
+    background-color: #34495E;
+    text-decoration: none;
+}
+.a12{
+    transition: 0.4s;
+}
+.sample-link:hover .a12{
+    margin-left: 1rem;
+}
+
+
+
+
+
+

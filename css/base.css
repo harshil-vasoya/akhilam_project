@@ -1,0 +1,196 @@
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.7rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    transition: 0.7s;
+    z-index: 1000;
+    color: white;
+}
+
+.navbar-scroll-active {
+    color: var(--main);
+    background-color:white;
+    box-shadow: 1px 1px 10px rgb(182, 182, 182);
+}
+
+.home_btn {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.home_btn:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    margin: -3rem 0;
+    width: 4.4rem;
+}
+
+.links {
+    display: none;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: 0.2s;
+    color: inherit;
+}
+
+.link:hover {
+    color: orange;
+}
+.activ{
+    color: orange;
+}
+
+/* buger button */
+
+.burger-btn {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 4rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.3rem;
+    margin-right: 1rem;
+    transition: 0.3s;
+}
+
+.burger-btn:hover {
+    transform: scale(1.1);
+}
+
+.burger-bar {
+    background-color: white;
+    width: 100%;
+    height: 5px;
+    display: block;
+    border-radius: 1rem;
+}
+
+/* navigation bar for mobile */
+
+.navbar-mobile {
+    background-image: url(../images/nav-mob.webp);
+    background-size: cover;
+    color: white;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+}
+.navbar-mobile::backdrop{
+    background-color: #1b2631;
+}
+
+.links-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+    align-items: center;
+}
+
+.links-2>.link {
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 2rem 0;
+    height: 70vh;
+    border-top-left-radius: 7rem;
+    border-top-right-radius: 7rem;
+}
+
+.footer>div {
+    width: 80vw;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 12rem;
+}
+
+.b-box-11 {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.b-box-11:hover {
+    transform: scale(1.1);
+}
+
+.b-name-11 {
+    font-size: 2.3rem;
+    color: var(--logo);
+}
+
+.mi-box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.m-icon {
+    text-decoration: none;
+    font-size: 3rem;
+    transition: 0.3s;
+    color: var(--logo);
+}
+
+.m-icon:hover {
+    transform: scale(1.2);
+}
+
+.title-footer-11 {
+    font-size: 2rem;
+}
+
+.welcome-text {
+    padding: 1rem 0;
+}
+
+footer {
+    padding: 1rem 0;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    color: white;
+    background-color: #1b2631;
+}

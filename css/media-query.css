@@ -1,0 +1,108 @@
+@media screen and (min-width: 750px) {
+  :root {
+    font-size: 16px;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  /* section 4 */
+
+  .sec-4 > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+
+  .sec-sample-2 a{
+    width: 30vw;
+    height: 17vw;
+  }
+
+
+
+
+
+
+
+
+  /* section sample  */
+
+  .sec-sample > div {
+    flex-direction: row;
+  }
+
+  .sample-text-box {
+    width: 30vw;
+  }
+
+  
+
+
+
+  .swiper {
+    width: 50vw;
+    height: 30vw;
+  }
+
+
+
+
+
+  /* footer css */
+
+  .footer {
+    flex-direction: row;
+    height: fit-content;
+  }
+
+  .footer > div {
+    width: 25vw;
+  }
+
+  .footer-logo {
+    width: 9rem;
+  }
+  .b-name-11 {
+    font-size: 1.5rem;
+  }
+
+  .m-icon {
+    font-size: 2rem;
+  }
+
+  .title-1::before {
+    width: 40%;
+  }
+
+  .title-1::after {
+    width: 40%;
+  }
+
+  .pg-item{
+      width: 30vw;
+  }
+
+  
+  .who-vr{
+    flex-direction:row;
+  }
+  .vr-img{
+    width: 40vw;
+  }
+  .vr-info{
+    width: 50vw;
+  }
+
+  .swiper-button-next,.swiper-button-prev{
+    display: flex;
+  }
+
+}

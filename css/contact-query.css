@@ -1,0 +1,26 @@
+@media screen and (max-width: 750px) {
+
+    .form-box{
+        flex-direction: column;
+    }
+    input{
+        padding: 0.7rem;
+    }
+    .form-left>input{
+        width: 70vw;
+        font-size: 1.3rem;   
+    }
+    textarea{
+        margin: 0;
+    }
+
+    #card-img{
+        width: 80vw;
+    }
+
+    form>button{
+        font-size: 1.7rem;
+    }
+
+
+}

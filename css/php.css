@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+
+
+.main-box{
+    padding: 2rem;
+    border: 2px solid green;
+    border-radius: 3rem;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color: green;
+    padding: 1rem;
+}
+
+.main-box>a{
+    display: block;
+    width: fit-content;
+    font-size: 1.4rem;
+    background-color: green;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem auto 0 auto;
+    transition: 0.3s;
+}
+
+.main-box>a:hover{
+    transform: scale(1.1);
+}

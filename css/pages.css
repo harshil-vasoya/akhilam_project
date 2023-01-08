@@ -1,0 +1,39 @@
+.page-banner{
+    width: 100vw;
+    height: 45vh;
+    background-image: url("../images/page-banner.webp");
+    background-size: cover;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.pg-container{
+    margin: 3rem 0;
+    width: 100vw;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pg-item{
+    width: 90vw;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.pg-item-img{
+    transition: 1s !important;
+}
+.pg-item:hover .pg-item-img{
+    transform: scale(1.3);
+    box-shadow: 0 0 10px rgb(36, 35, 35);
+}
+
+.pg-item-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+
